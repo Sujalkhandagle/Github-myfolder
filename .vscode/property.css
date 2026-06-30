@@ -1,0 +1,43 @@
+/* text property */
+h1{
+    text-align: center;
+    color: orangered;
+    background-color: yellow;
+    text-shadow: 15px 19px 3px blue ;
+}
+p{
+    color: blue;
+   
+    text-indent: 150px;
+    background-color: coral;
+    text-decoration:underline;
+    text-decoration-style: dotted;
+    text-decoration-color: black;
+    text-transform: capitalize;
+    text-align: center;
+    text-rendering: ;
+}
+
+/*font property*/
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    font-style: oblique;
+    font-variant: initial;
+}
+h1{
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    font-style: oblique;
+    font-variant: initial;
+
+}
+body{
+    height: 90vh;
+    width: 100%;
+  /*  background-image: url(./—Pngtree—a\ background\ of\ orange\ blue_15791586.jpg);*/
+    background-image:url(../dhurandhar.avif) ;
+      background-attachment:fixed   ;
+}
