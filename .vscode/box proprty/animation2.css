@@ -1,0 +1,116 @@
+/* General Styling */
+body{
+    margin:0;
+    padding:00px;
+    font-family:Arial, sans-serif;
+    background:#000000;
+    text-align:center;
+}
+
+h1{
+    color:#c11111;
+}
+
+.container{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:40px;
+    margin-top:30px;
+}
+
+.box{
+    width:250px;
+    height:250px;
+    background:white;
+    border-radius:10px;
+    box-shadow:0 0 10px gray;
+    padding:15px;
+}
+
+
+
+.circle{
+    width:50px;
+    height:50px;
+    background:red;
+    border-radius:150%;
+    position:relative;
+    animation:moveCircle 3s infinite alternate;
+}
+
+@keyframes moveCircle{
+    from{
+        left:0px 
+        ;
+    }
+    to{
+        left:170px;
+    }
+}
+
+.square{
+    width:80px;
+    height:80px;
+    background:blue;
+    margin:40px auto;
+    animation:rotateSquare 2s linear infinite;
+}
+
+@keyframes rotateSquare{
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}
+
+
+.bounce-area{
+    width:180px;
+    height:150px;
+    margin:auto;
+    border-bottom:3px solid black;
+    position:relative;
+}
+
+.ball{
+    width:40px;
+    height:40px;
+    background:green;
+    border-radius:50%;
+    position:absolute;
+    left:70px;
+    animation:bounce 1s infinite alternate;
+}
+
+@keyframes bounce{
+    from{
+        top:0;
+    }
+    to{
+        top:110px;
+    }
+}
+
+
+
+.spinner{
+    width:70px;
+    height:70px;
+    border:8px solid lightgray;
+    border-top:8px solid orange;
+    border-radius:50%;
+    margin:40px auto;
+    animation:spin 1s linear infinite;
+}
+
+@keyframes spin{
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}
