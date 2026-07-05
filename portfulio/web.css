@@ -1,0 +1,71 @@
+nav{
+    background-color: black;
+    padding: 15px;
+    
+}
+
+nav h2{
+    color: white;
+    display: inline;
+    
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    display: inline;
+}
+
+nav a:hover{
+    color: yellow;
+}
+#home{
+    text-align: center;
+    padding: 100px;
+    background-color: lightblue;
+}
+
+.my-btn:hover{
+    background-color: red;
+    border-color: red;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+#about{
+    text-align: center;
+    padding: 50px;
+    background-color: #82a59a;
+}
+
+#about img{
+    border-radius: 50%;
+    margin: 20px;
+}
+
+#about p{
+    font-size: 18px;
+}
+
+.card{
+    transition: 0.3s;
+    background-color: rgb(18, 49, 49);
+    margin: 10px;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 5px 15px gray;
+}
+#skills{
+    background-color: black;
+    min-height: vh;
+    color: white;
+
+    justify-content: center;
+    align-items: center;
+   display: cover;
+    margin-top: px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
