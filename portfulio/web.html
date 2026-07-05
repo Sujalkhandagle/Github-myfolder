@@ -7,20 +7,32 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link rel="Stylesheet" href="web.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <h2>My Portfolio</h2>
 
-    <a href="#">Home</a>
-    <a href="#">About</a>
-    <a href="#">Skills</a>
-    <a href="#">Gallery</a>
-    <a href="#">Contact</a>
+    <li class="nav-item">
+    <a class="nav-link" href="#about">
+        <i class="bi bi-person-fill"></i> About
+    </a>
+</li>
+
+<li class="nav-item">
+    <a class="nav-link" href="#skills">
+        <i class="bi bi-code-slash"></i> Skills
+    </a>
+</li>
+
+<li class="nav-item">
+    <a class="nav-link" href="#contact">
+        <i class="bi bi-envelope-fill"></i> Contact
+    </a>
+</li>
 
     
 </nav>
-
 
 <section id="home">
     <section class="home">
@@ -30,18 +42,17 @@
     <button class="btn btn-primary my-btn">Learn More</button>
 </section>
 
-
-
 <section id="about">
-    <h2>About Me</h2>
-
-    <img src="../portfolio/IMG_20220815_123850_660.jpg" alt="Profile Image" width="200">
-
-    <p>
+    <section>    
+        <h2>About Me</h2>
+        <img src="./IMG_20220815_123850_660 - Copy.jpg" alt="Profile Image" class="profile-img" width="200">
+        <p>
         Hello! My name is Sujal. I am learning HTML, CSS, Bootstrap,
         and Java Full Stack Development. I enjoy creating simple and
         beautiful websites.
-    </p>
+        </p>
+    </section>
+
 </section>
 
 <section id="skills"class="container-fluid py-5">
@@ -76,6 +87,51 @@
                 <h4>Java</h4>
                 <p>Learning Java Programming</p>
             </div>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="contact" class="container-fluid py-5">
+
+    <h1 class="text-center text-white mb-5">Contact Me</h1>
+
+    <div class="container">
+
+        <div class="row justify-content-center">
+
+            <div class="col-md-6">
+
+                <div class="card p-4 shadow">
+
+                    <form>
+
+                        <div class="mb-3">
+                            <label class="form-label">Full Name</label>
+                            <input type="text" class="form-control" placeholder="Enter your name">
+                        </div>
+
+                        <div class="mb-100">
+                            <label class="form-label">Email</label>
+                            <input type="email" class="form-control" placeholder="Enter your email">
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Message</label>
+                            <textarea class="form-control" rows="5" placeholder="Write your message"></textarea>
+                        </div>
+
+                        <button class="btn btn-primary w-100">
+                            Send Message
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
         </div>
 
     </div>
