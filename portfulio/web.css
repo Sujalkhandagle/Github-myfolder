@@ -25,6 +25,11 @@ nav a:hover{
     padding: 100px;
     background-color: lightblue;
 }
+.home h1:hover{
+
+    color: rgb(133, 13, 13);
+
+}
 
 .my-btn:hover{
     background-color: red;
